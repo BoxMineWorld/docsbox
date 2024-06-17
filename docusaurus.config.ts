@@ -3,12 +3,12 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: "Hedystia",
-  tagline: "Documentation of Hedystia packages, applications and others",
-  url: "https://docs.hedystia.com",
+  title: "BoxMine Docs",
+  tagline: "Documentacion de BoxMine World",
+  url: "https://docs.boxmineworld.com",
+  baseUrl: "/",
   favicon: "img/favicon.ico",
-  baseUrl: '/',
-  organizationName: "Hedystia",
+  organizationName: "Boxmine World",
   projectName: "docs",
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -41,14 +41,14 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: "Hedystia",
+      title: "Boxmine Docs",
       logo: {
-        alt: "Hedystia Icon",
-        src: "img/icon.webp",
+        alt: "Boxmine Logo",
+        src: "img/icon.ico",
       },
       items: [
         {
-          href: "https://hedystia.com",
+          href: "https://boxmineworld.com",
           label: "Website",
           position: "left",
         },
@@ -59,12 +59,12 @@ const config: Config = {
           position: "left",
         },
         {
-          href: "https://github.com/Zastinian",
+          href: "https://github.com/Boxmine-World",
           label: "GitHub",
           position: "right",
         },
         {
-          href: "https://discord.gg/aXvuUpvRQs",
+          href: "https://discord.com/servers/boxmine-world-host-bot-651776838976143392",
           label: "Discord",
           position: "right",
         },
@@ -77,7 +77,7 @@ const config: Config = {
           title: "Useful Links",
           items: [
             {
-              href: "https://hedystia.com",
+              href: "https://boxmineworld.com",
               label: "Website",
             },
             {
@@ -91,7 +91,7 @@ const config: Config = {
           items: [
             {
               label: "Discord",
-              href: "https://discord.gg/aXvuUpvRQs",
+              href: "https://discord.com/servers/boxmine-world-host-bot-651776838976143392",
             },
           ],
         },
@@ -100,12 +100,12 @@ const config: Config = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/Zastinian",
+              href: "https://github.com/Boxmine-World",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Hedystia.`,
+      copyright: `Copyright © 2023 - ${new Date().getFullYear()} BoxMine World. All rights reserved.`,
     },
     prism: {
       theme: prismThemes.github,
