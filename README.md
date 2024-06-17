@@ -1,5 +1,5 @@
-# Hedystia Documentation
+# BoxMine World Documentacion
 
-### Hedystia's general project documentation
+### Web de Documentacion para BoxMine World
 
-#### Note: Documentation is still under development.
+#### Nota: La idea de esta web es poderse usar para instruir en el uso de nuestros sistemas a nuestros usuarios (De seguro algun host celoso nos copia).
