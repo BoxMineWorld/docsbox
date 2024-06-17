@@ -80,7 +80,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Hedystia. All rights reserved.`,
     },
     prism: {
-      darkTheme: require("prism-react-renderer/themes/oceanicNext"),
+      darkTheme: require("prism-react-renderer").themes.oceanicNext,
     },
   },
   presets: [
