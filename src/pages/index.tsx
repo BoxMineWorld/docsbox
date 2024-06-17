@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
-import { HomePage } from "../components";
+import HomepageHeader from "../components/HomePage";
 
 export default function Home(): JSX.Element {
 	return (
@@ -8,7 +8,7 @@ export default function Home(): JSX.Element {
 			description="Documentation of Hedystia packages, applications and others"
 			wrapperClassName="pb-layout"
 		>
-			<HomePage />
+			<HomepageHeader />
 		</Layout>
 	);
 }
