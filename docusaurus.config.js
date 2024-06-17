@@ -1,10 +1,10 @@
 module.exports = {
-  title: "Hedystia",
-  tagline: "Documentation of Hedystia packages, applications and others",
-  url: "https://docs.hedystia.com",
+  title: "BoxMine Docs",
+  tagline: "Documentacion de BoxMine World",
+  url: "https://docs.boxmineworld.com",
   baseUrl: "/",
   favicon: "img/favicon.ico",
-  organizationName: "Hedystia",
+  organizationName: "Boxmine World",
   projectName: "docs",
   themeConfig: {
     colorMode: {
@@ -13,30 +13,30 @@ module.exports = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: "Hedystia",
+      title: "BoxMine Docs",
       logo: {
-        alt: "Hedystia Icon",
+        alt: "BoxMine Logo",
         src: "img/icon.webp",
       },
       items: [
         {
-          href: "https://hedystia.com",
-          label: "Website",
+          href: "https://boxmineworld.com",
+          label: "Web",
           position: "left",
         },
         {
           to: "docs/welcome",
           activeBasePath: "docs",
-          label: "Documentation",
+          label: "Documentacion",
           position: "left",
         },
         {
-          href: "https://github.com/Zastinian",
+          href: "https://github.com/Boxmine-World",
           label: "GitHub",
           position: "right",
         },
         {
-          href: "https://discord.gg/aXvuUpvRQs",
+          href: "https://discord.com/servers/boxmine-world-host-bot-651776838976143392",
           label: "Discord",
           position: "right",
         },
@@ -49,7 +49,7 @@ module.exports = {
           title: "Useful Links",
           items: [
             {
-              href: "https://hedystia.com",
+              href: "https://boxmineworld.com",
               label: "Website",
             },
             {
@@ -63,7 +63,7 @@ module.exports = {
           items: [
             {
               label: "Discord",
-              href: "https://discord.gg/aXvuUpvRQs",
+              href: "https://discord.com/servers/boxmine-world-host-bot-651776838976143392",
             },
           ],
         },
@@ -72,7 +72,7 @@ module.exports = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/Zastinian",
+              href: "https://github.com/Boxmine-World",
             },
           ],
         },
