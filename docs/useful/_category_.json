@@ -1,8 +1,8 @@
 {
-  "label": "Hedystia-Useful",
+  "label": "Dashboard",
   "position": 4,
   "link": {
     "type": "generated-index",
-    "description": "Hedystia-Useful"
+    "description": "Docs de la dashboard de BoxMine"
   }
 }
