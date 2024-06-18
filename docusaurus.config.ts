@@ -53,7 +53,7 @@ const config: Config = {
           position: "left",
         },
         {
-          to: "docs/welcome",
+          to: "docs/inicio",
           activeBasePath: "docs",
           label: "Documentation",
           position: "left",
@@ -82,7 +82,7 @@ const config: Config = {
             },
             {
               label: "Documentation",
-              to: "docs/welcome",
+              to: "docs/inicio",
             },
           ],
         },
