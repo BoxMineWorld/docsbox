@@ -22,11 +22,11 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: "https://github.com/Zastinian/HedystiaDocs/edit/master/",
+          editUrl: "https://github.com/Boxmine-World/docsbox/edit/master/",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/Zastinian/HedystiaDocs/edit/master/blog/",
+          editUrl: "https://github.com/Boxmine-World/docsbox/edit/master/blog/",
         },
         theme: {
           customCss: './src/css/custom.css',
