@@ -5,7 +5,7 @@ import HomepageHeader from "../components/HomePage";
 export default function Home(): JSX.Element {
 	return (
 		<Layout
-			description="Documentation of Hedystia packages, applications and others"
+			description="Documentación de BoxMine World"
 			wrapperClassName="pb-layout"
 		>
 			<HomepageHeader />
