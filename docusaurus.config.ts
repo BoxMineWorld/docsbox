@@ -22,11 +22,11 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: "https://github.com/Boxmine-World/docsbox/edit/master/",
+          editUrl: "https://github.com/Boxmine-World/docsbox/edit/main/",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/Boxmine-World/docsbox/edit/master/blog/",
+          editUrl: "https://github.com/Boxmine-World/docsbox/edit/main/blog/",
         },
         theme: {
           customCss: './src/css/custom.css',
