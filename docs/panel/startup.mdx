@@ -1,0 +1,30 @@
+---
+id: startup
+title: Startup
+description: Apartado de la Startup de Boxmine
+sidebar_position: 1
+keywords: [Startup, Boxmine]
+---
+
+## Descripcion
+
+- En esta sección se puede editar las variables y el comando al iniciar nuestro bot.
+
+## Imagen de Guia
+
+<img src='/img/panel/startup.png' alt='Guia Startup' />
+
+## Apartados:
+
+### Principales
+
+| Apartados        | Descripcion                  |
+| --------------- | ------------------------------ |
+| `Startup Command` | Aquí aparecerá un comando que no se puede modificar, este comando se encarga de tomar la ruta y ejecutar un algoritmo que le indica al servidor qué y cómo iniciar. Del mismo modo, abajo podremos modificar el comando de inicio del servidor, es recomendable dejarlo tal y como está, pero si sabes lo que estás moviendo, puedes ajustarlo a tus necesidades.        |
+| `Instalar Paquetes de Node` | En esta sección puedes instalar paquetes que no están importados dentro de tu archivo package.json, con esto te ahorras el tiempo en editarlo. |
+| `Desinstalar Paquetes de Node`    | En esta sección puedes desinstalar paquetes ya instalados en tu servidor, sin embargo, hay que tener mucho cuidado al usar esta opción, ya que si introduces algo mal, podrías comprometer tu bot y afectar su funcionamiento.  |
+| `URL del Repositorio`  | Aquí es el sitio en el que puedes clonar un repositorio de Github y usarlo en tu servidor y del mismo modo, se realicen actualizaciones con un git pull. La URL se debe ver algo como esto para que funcione: https://github.com/nombre_de_usuario/nombre_del_repositorio.git         |
+| `Auto Update`  | Al hacer uso de un git pull en este apartado, se realizará una actualización automática usando el link que se introdujo en URL del Repositorio.         |
+| `Usuario de GitHub`  | En esta parte se debe introducir el nombre de usuario del autor del repositorio, esto con el fin de verificar la URL usada.         |
+| `Contraseña de GitHub`  | Aquí hay que tener algo muy en cuenta, y es que no se introduce una contraseña en realidad, si no que debe ser un token, y esto es usado únicamente si el repositorio es privado, con el fin de que no sea clonado.         |
+
