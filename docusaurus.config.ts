@@ -7,7 +7,7 @@ const config: Config = {
   tagline: "Documentacion de BoxMine World",
   url: "https://docs.boxmineworld.com",
   baseUrl: "/",
-  favicon: "img/favicon.ico",
+  favicon: "img/logo.ico",
   organizationName: "Boxmine World",
   projectName: "docs",
   onBrokenLinks: 'throw',
@@ -44,7 +44,7 @@ const config: Config = {
       title: "Boxmine Docs",
       logo: {
         alt: "Boxmine Logo",
-        src: "img/icon.ico",
+        src: "img/logo.ico",
       },
       items: [
         {
