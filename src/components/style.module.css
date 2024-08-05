@@ -1,104 +1,152 @@
 .heroBanner {
-  margin: 1rem;
-  padding: 40px;
-  min-height: 300px;
-  background: #373737;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--ifm-color-gray-800);
   border-radius: 16px;
-  background-clip: padding-box;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  margin: 1rem;
+  box-shadow: 0 1px 6px rgba(255, 255, 255, 0.1);
 }
-.heroBanner:before {
+
+.heroBanner::before {
   content: "";
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: -1;
+  z-index: 0;
   border-radius: inherit;
-  background: linear-gradient(131.79deg, rgba(186, 189, 204, 0.3) -0.71%, rgba(186, 189, 204, 0) 34.69%), linear-gradient(0deg, #282a37, #282a37);
+  background: linear-gradient(131.79deg, rgba(255, 215, 0, 0.2) -0.71%, rgba(255, 215, 0, 0) 34.69%);
 }
-.heroBanner .background-wrapper {
-  position: absolute;
-  right: 0;
-  bottom: 0;
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.text-info {
+  flex: 1;
+  text-align: left;
+}
+
+.heroImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroImage img {
+  max-width: 100%;
+  height: auto;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 2rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-color-gray-900);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.button:hover {
+  background-color: var(--ifm-color-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(255, 215, 0, 0.3);
+  text-decoration: none;
+}
+
+.announcementBar {
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-color-gray-900);
+  padding: 0.2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
   width: 100%;
-  height: 100%;
+}
+
+.featureImage {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.getStarted {
+  text-align: center;
+  padding: 4rem 0;
+  background-color: var(--ifm-color-gray-800);
   border-radius: 16px;
-  pointer-events: none;
+  margin: 1rem;
+  position: relative;
   overflow: hidden;
 }
-.heroBanner .background {
+
+.getStarted::before {
+  content: "";
   position: absolute;
+  top: 0;
   right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  background: linear-gradient(131.79deg, rgba(255, 215, 0, 0.1) -0.71%, rgba(255, 215, 0, 0) 34.69%);
 }
-.heroBanner .container {
+
+.getStarted h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
   position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-}
-.heroBanner .text-info {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  gap: 24px;
-  flex: 1 1 300px;
+  z-index: 1;
 }
 
-.heroBanner .text-info p {
-  color: #828699;
+.getStarted p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 1;
 }
 
-@media screen and (max-width: 1200px) {
-  .heroBanner .background {
-    width: 100%;
-    bottom: -100px;
+@media screen and (max-width: 966px) {
+  .container {
+    flex-direction: column;
   }
-}
-@media screen and (max-width: 860px) {
-  .heroBanner .background {
-    width: 100%;
-    bottom: -150px;
-  }
-}
-@media screen and (max-width: 661px) {
-  .heroBanner .background-wrapper,
-  .heroBanner .just-space {
-    display: none;
-  }
-  .heroBanner .text-info {
-    align-items: center;
+
+  .text-info {
     text-align: center;
+    margin-bottom: 2rem;
   }
-}
 
-.button button {
-  outline: none;
-  padding: 8px 16px;
-  border-radius: 6px;
-  font-size: 18px;
-  font-weight: 400;
-  background: rgb(55, 55, 55);
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
-  color: #fff;
-  cursor: pointer;
-  border: 2px solid transparent;
-  transition: all 0.4s ease;
-}
+  .buttons {
+    justify-content: center;
+  }
 
-.button button:hover {
-  border-color: rgb(55, 55, 55);
-  background-color: rgb(73, 73, 73);
-  color: rgb(55, 55, 55);
-}
-.button button:disabled,
-button[disabled] {
-  background-color: rgb(46, 46, 46);
-  color: #666666;
+  .heroImage {
+    margin-top: 2rem;
+  }
 }
