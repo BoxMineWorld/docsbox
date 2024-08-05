@@ -87,9 +87,6 @@ export default function HomepageHeader() {
 					<div className="container">
 						<h2>Listo para empezar?</h2>
 						<p>¡Sumérgete en BoxMine World y crea experiencias increíbles!</p>
-						<Link to="/docs/welcome" className={styles.button}>
-							Explorar documentación
-						</Link>
 					</div>
 				</section>
 			</main>
