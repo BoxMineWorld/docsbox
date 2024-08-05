@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: "BoxMine Docs",
-  tagline: "Documentacion de BoxMine World",
+  tagline: "Documentación de BoxMine World",
   url: "https://docs.boxmineworld.com",
   baseUrl: "/",
   favicon: "img/logo.ico",
@@ -49,13 +49,13 @@ const config: Config = {
       items: [
         {
           href: "https://boxmineworld.com",
-          label: "Website",
+          label: "Página web",
           position: "left",
         },
         {
           to: "docs/welcome",
           activeBasePath: "docs",
-          label: "Documentation",
+          label: "Documentación",
           position: "left",
         },
         {
@@ -74,20 +74,20 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Useful Links",
+          title: "Enlaces útiles",
           items: [
             {
               href: "https://boxmineworld.com",
-              label: "Website",
+              label: "Página web",
             },
             {
-              label: "Documentation",
+              label: "Documentación",
               to: "docs/welcome",
             },
           ],
         },
         {
-          title: "Support",
+          title: "Soporte",
           items: [
             {
               label: "Discord",
@@ -96,7 +96,7 @@ const config: Config = {
           ],
         },
         {
-          title: "More",
+          title: "Más",
           items: [
             {
               label: "GitHub",
