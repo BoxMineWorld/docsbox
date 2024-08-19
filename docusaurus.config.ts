@@ -22,11 +22,11 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: "https://github.com/Boxmine-World/docsbox/edit/main/",
+          editUrl: "https://github.com/BoxMineWorld/docsbox/edit/main/",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/Boxmine-World/docsbox/edit/main/blog/",
+          editUrl: "https://github.com/BoxMineWorld/docsbox/edit/main/blog/",
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -59,7 +59,7 @@ const config: Config = {
           position: "left",
         },
         {
-          href: "https://github.com/Boxmine-World",
+          href: "https://github.com/BoxMineWorld",
           label: "GitHub",
           position: "right",
         },
@@ -100,7 +100,7 @@ const config: Config = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/Boxmine-World",
+              href: "https://github.com/BoxMineWorld",
             },
           ],
         },
