@@ -11,7 +11,11 @@ const config: Config = {
   organizationName: "Boxmine World",
   projectName: "docs",
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   i18n: {
     defaultLocale: 'es',
     locales: ['es'],
