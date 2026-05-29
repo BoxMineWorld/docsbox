@@ -1,0 +1,32 @@
+---
+id: permisos-admin
+title: Permisos y Admin
+description: Configuración de modos de acceso y restricciones del bot
+sidebar_position: 3
+keywords: [LunaBot, permisos, admin, restrict, modoadmin, modogrupos, modopublico]
+---
+
+## Descripción
+
+Configuración de modos de acceso y restricciones del bot.
+
+## Comandos
+
+| Función | Comando | Descripción |
+| ------- | ------- | ----------- |
+| `RESTRICT` | `.enable restrict` | Activa restricciones del grupo para eliminar integrantes. *(Solo Owner)* |
+| `MODOADMIN` | `.enable modoadmin` | Solo los admins pueden usar comandos del bot. |
+| `MODOGRUPOS` | `.enable modogrupos` | Limita el uso del bot solo a grupos. *(Solo Owner)* |
+| `MODOPUBLICO` | `.enable modopublico` | Cambia el bot a modo público para cualquier usuario. *(Solo Owner)* |
+
+## Nota
+
+Las funciones marcadas como **(Solo Owner)** solo pueden activarse o desactivarse por el dueño del bot.
+
+Para desactivar cualquier función, reemplaza `.enable` por `.disable` seguido del mismo nombre.
+
+**Ejemplo:**
+```
+.disable modoadmin
+.disable restrict
+```

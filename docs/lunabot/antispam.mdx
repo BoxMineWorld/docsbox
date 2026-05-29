@@ -1,0 +1,35 @@
+---
+id: antispam
+title: Anti-spam y Seguridad
+description: Funciones de protección automática para mantener el orden en los grupos
+sidebar_position: 2
+keywords: [LunaBot, antispam, antilink, antitoxic, anticall, seguridad, proteccion]
+---
+
+## Descripción
+
+Funciones de protección automática para mantener el orden en los grupos.
+
+## Comandos
+
+| Función | Comando | Descripción |
+| ------- | ------- | ----------- |
+| `ANTILINK` | `.enable antilink` | Elimina mensajes con enlaces de otros grupos de WhatsApp. |
+| `ANTILINK2` | `.enable antilink2` | Versión estricta. Detecta y elimina casi cualquier tipo de enlace. |
+| `ANTITOXIC` | `.enable antitoxic` | Detecta y elimina mensajes con palabras tóxicas. |
+| `ANTISPAM` | `.enable antispam` | Bloquea usuarios que hacen spam. *(Solo Owner)* |
+| `ANTICALL` | `.enable anticall` | Bloquea automáticamente las llamadas entrantes. *(Solo Owner)* |
+| `ANTIDELETE` | `.enable antidelete` | Evita que se eliminen mensajes en el grupo. |
+| `ANTIPRIVADO` | `.enable antiprivado` | Impide que el bot reciba mensajes privados. *(Solo Owner)* |
+
+## Nota
+
+Las funciones marcadas como **(Solo Owner)** solo pueden activarse o desactivarse por el dueño del bot.
+
+Para desactivar cualquier función, reemplaza `.enable` por `.disable` seguido del mismo nombre.
+
+**Ejemplo:**
+```
+.disable antilink
+.disable antispam
+```
