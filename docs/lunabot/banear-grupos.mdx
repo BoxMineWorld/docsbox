@@ -1,0 +1,91 @@
+---
+id: banear-grupos
+title: Banear y Desbanear Grupos
+description: Cómo bloquear grupos para que el bot no responda, con o sin estar presente en el grupo
+sidebar_position: 10
+keywords: [LunaBot, banchat, unbanchat, banid, unbanid, banear, grupo, owner, seguridad]
+---
+
+## Descripción
+
+Como owner del bot, podés bloquear grupos para que el bot ignore todos sus mensajes. Tenés dos métodos disponibles según si estás dentro del grupo o no.
+
+---
+
+## Método 1 — Estando dentro del grupo
+
+Usá este método cuando el bot ya está en el grupo y querés banearlo desde adentro.
+
+### Banear el grupo actual
+
+```
+.banchat
+```
+
+El bot dejará de responder en ese grupo inmediatamente.
+
+### Desbanear el grupo actual
+
+```
+.unbanchat
+```
+
+El bot vuelve a responder normalmente en ese grupo.
+
+:::info Solo Owner
+Los comandos `.banchat` y `.unbanchat` solo pueden ejecutarlos el dueño del bot.
+:::
+
+---
+
+## Método 2 — Sin estar dentro del grupo (por ID)
+
+Usá este método cuando querés banear un grupo sin necesidad de estar en él. Ideal para bloquear grupos de forma remota.
+
+### Ver grupos donde está el bot
+
+Primero, pedile al bot que te muestre la lista de grupos con sus IDs:
+
+```
+.banid
+```
+
+El bot te responderá con el nombre e ID de cada grupo donde está activo.
+
+### Banear un grupo por ID
+
+```
+.banid [ID del grupo]
+```
+
+**Ejemplo:**
+```
+.banid 120363XXXXXXXXXX@g.us
+```
+
+### Desbanear un grupo por ID
+
+```
+.unbanid [ID del grupo]
+```
+
+**Ejemplo:**
+```
+.unbanid 120363XXXXXXXXXX@g.us
+```
+
+:::info Solo Owner
+Todos los comandos de esta sección solo pueden ejecutarlos el dueño del bot.
+:::
+
+---
+
+## Resumen de comandos
+
+| Comando | Función | ¿Necesita estar en el grupo? |
+| ------- | ------- | ---------------------------- |
+| `.banchat` | Banea el grupo actual | ✅ Sí |
+| `.unbanchat` | Desbanea el grupo actual | ✅ Sí |
+| `.banid` | Lista todos los grupos con su ID | ❌ No |
+| `.banid [ID]` | Banea un grupo por su ID | ❌ No |
+| `.unbanid [ID]` | Desbanea un grupo por su ID | ❌ No |

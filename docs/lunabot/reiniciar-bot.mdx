@@ -1,0 +1,56 @@
+---
+id: reiniciar-bot
+title: Reiniciar y Apagar el Bot
+description: Cómo reiniciar o apagar Luna-Botv6 desde WhatsApp
+sidebar_position: 8
+keywords: [LunaBot, restart, stop, reiniciar, apagar, consola, BoxMine]
+---
+
+## Reiniciar el Bot
+
+El comando `.restart` **reinicia y actualiza** el bot en un solo paso. Equivale a apagarlo y volverlo a encender con la versión más reciente.
+
+### Comando
+
+```
+.restart
+```
+
+:::info Solo Owner
+Este comando solo puede ejecutarlo el dueño del bot.
+:::
+
+**¿Qué hace exactamente?**
+
+- Descarga los últimos cambios disponibles.
+- Cierra el proceso actual del bot.
+- El panel de BoxMine lo reinicia automáticamente.
+
+---
+
+## Apagar el Bot
+
+El comando `.stop` **apaga el bot por completo**. Una vez ejecutado, el bot deja de responder hasta que vos lo enciendas manualmente desde el panel.
+
+### Comando
+
+```
+.stop
+```
+
+:::warning Atención
+Después de usar `.stop`, el bot **no se enciende solo**. Tenés que ir al panel de BoxMine, abrir la consola de tu bot y presionar el botón **Start**.
+:::
+
+:::info Solo Owner
+Este comando solo puede ejecutarlo el dueño del bot.
+:::
+
+---
+
+## Resumen rápido
+
+| Comando | Función | ¿Se enciende solo? |
+| ------- | ------- | ------------------ |
+| `.restart` | Reinicia y actualiza el bot | ✅ Sí, automático |
+| `.stop` | Apaga el bot completamente | ❌ No, manual desde el panel |
