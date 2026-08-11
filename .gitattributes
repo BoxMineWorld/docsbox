@@ -1,0 +1,3 @@
+# Los parches de patch-package deben conservar finales de linea LF: si git los
+# convierte a CRLF al clonar en Windows, el parche deja de aplicar en postinstall.
+*.patch -text eol=lf
