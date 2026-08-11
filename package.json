@@ -13,7 +13,9 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
-    "dev": "docusaurus start"
+    "dev": "docusaurus start",
+    "postinstall": "patch-package",
+    "verify:patches": "node scripts/verify-image-size-patch.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "^3.10.1",
@@ -28,6 +30,7 @@
     "@docusaurus/module-type-aliases": "^3.10.1",
     "@docusaurus/tsconfig": "^3.10.1",
     "@docusaurus/types": "^3.10.1",
+    "patch-package": "^8.0.1",
     "typescript": "~5.2.2"
   },
   "browserslist": {
