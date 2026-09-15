@@ -1,4 +1,4 @@
-// Reproduces the three GHSA PoCs against the patched image-size.
+// Regression check: reproduces the three GHSA PoCs fixed in image-size 2.0.4.
 // Each buffer sets a length/size field to 0 in a way that used to pin the
 // parser's offset in place and spin the event loop forever.
 import { imageSize } from 'image-size'
